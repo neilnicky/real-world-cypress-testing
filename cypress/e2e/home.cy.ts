@@ -1,5 +1,6 @@
 describe("home page", () => {
-  it("passes", () => {
-    cy.visit("https://example.cypress.io")
+  it("the h1 contains the correct text", () => {
+    cy.visit("http://localhost:3000")
+    cy.get("h1").contains("Testing Next.js Applications with Cypress")
   })
 })
