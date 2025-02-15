@@ -10,6 +10,18 @@ Cypress.Commands.add("getByData", (selector) => {
   return cy.get(`[data-test=${selector}]`)
 })
 
+// Cypress.Commands.add("getAllPosts", () => {
+//   cy.request("GET", "http://localhost:3000/api/posts").then((response) => {
+//     return cy.wrap(response.body);
+//   });
+// });
+
+// Cypress.Commands.add("getFirstPost", () => {
+//   cy.request("GET", "http://localhost:3000/api/posts").then((response) => {
+//     return cy.wrap(response.body).its(0);
+//   });
+// });
+
 // ***********************************************
 // This example commands.ts shows you how to
 // create various custom commands and overwrite
