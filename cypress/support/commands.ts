@@ -46,3 +46,20 @@ Cypress.Commands.add("getByData", (selector) => {
 //     }
 //   }
 // }
+
+
+
+// Cypress.Commands.add("loginByApi", (username, password) => {
+//   return cy.request("POST", `http://localhost:3000/login`, {
+//     username,
+//     password,
+//   })
+// })
+
+// describe("POST /login", () => {
+//   it("login as user", () => {
+//     cy.loginByApi("jdoe", "password123").then((response) => {
+//       expect(response.status).to.eq(200)
+//     })
+//   })
+// })
