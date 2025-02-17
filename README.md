@@ -13,6 +13,7 @@
 - Intercepting HTTP Requests with cy.intercept().
 - Database Seeding & Initialization for consistent test data.
 - Running Tests in Continuous Integration (CI).
+
 - API & Integration Testing with Cypress.
 - Viewport & Browser Testing for responsiveness.
 - Using Data for Dynamic Tests to improve coverage.
