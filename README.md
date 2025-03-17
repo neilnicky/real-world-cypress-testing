@@ -22,7 +22,7 @@
 
 
 <div style="display: flex; align-items: center; gap: 10px;">
-
+### ✍️ Random Dev Quote
   <img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=radical" />
 
   <img src="https://github.com/neilnicky/neilnicky/blob/main/assets/WhatsApp%20Image%202025-02-07%20at%2011.46.01%20AM.jpeg?raw=true" width="150" />
@@ -30,10 +30,5 @@
 </div>
 
 
-### ✍️ Random Dev Quote
-![](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=radical)
 
-
-
-<img src="https://github.com/neilnicky/neilnicky/blob/main/assets/WhatsApp%20Image%202025-02-07%20at%2011.46.01%20AM.jpeg?raw=true" width="150" />
 
