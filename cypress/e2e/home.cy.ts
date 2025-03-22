@@ -34,3 +34,13 @@ describe("Home page", () => {
     })
   })
 })
+
+
+
+context("Navigation", () => {
+    it("Navigates to the All Courses page", () => {
+      cy.getByData("nav-all-courses").click()
+      cy.location("pathname").should("equal", "/courses")
+      cy.get("h1").contains("All Courses")
+    })
+  })
